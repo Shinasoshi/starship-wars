@@ -1,0 +1,15 @@
+.starships {
+  display: flex;
+  flex-direction: column;
+
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .button-container, .resource-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+}

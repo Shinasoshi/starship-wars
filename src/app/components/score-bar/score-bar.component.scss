@@ -1,0 +1,13 @@
+.score-bar {
+  display: flex;
+  justify-content: space-around;
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    .score {
+      text-align: center;
+    }
+  }
+}
